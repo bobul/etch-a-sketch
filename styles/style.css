@@ -1,0 +1,17 @@
+:root {
+  --grid-rows: 1;
+  --grid-cols: 1;
+}
+
+#main-container {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  padding: 1em;
+  border: 1px solid #ddd;
+}/*# sourceMappingURL=style.css.map */
