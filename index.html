@@ -9,11 +9,28 @@
     <script src="./script/main.js" defer></script>
 </head>
 <body>
-    <div class="container" id="main-container">
-    </div>
-    <label for="points">Points (between 8 and 64):</label>
-    <input type="range" id="range" name="points" min="8" max="64" value="16">
-    <button id="btn-change">Change</button>
-    <button id="btn-clear">Clear</button>
+    <header>
+        <div class="game-title">
+            <h1>Etch-A-Sketch</h1>
+            <p>Authored by Felix Y.</p>
+        </div>
+    </header>
+    <main>
+        <div class="main-page">
+            <div class="container" id="main-container">
+        </div>
+        <aside class="settings-container">
+            <h2>Settings</h2>
+            <div class="adjusting">
+                <label for="points">Size (between 8 and 64):</label>
+                <input type="range" id="range" name="points" min="8" max="64" value="16"><br>
+                <button id="btn-change">Change</button>
+                <button id="btn-clear">Clear</button>
+                <button id="btn-black">Black</button>
+                <button id="btn-rgb">RGB</button>
+            </div>
+        </aside>
+        </div>
+    </main>
 </body>
 </html>
