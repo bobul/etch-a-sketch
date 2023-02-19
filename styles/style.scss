@@ -44,15 +44,28 @@ body, button{
 }
 
 .settings-container{
-    width: 40vh;
-    height: 40vh;
+    width: 45vh;
+    height: 45vh;
     border: 2px solid black;
     border-radius: 2rem;
     .adjusting{
-        padding-top: 4rem;
+
     }
     h2{
-        padding-top: 1rem;
+        padding-top: 0.5rem;
         text-shadow: 1px 2px 5px black;
+        margin-bottom: 0.5rem;
+    }
+    button{
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 2rem;
+        padding: 0.2rem 1.2rem;
+        cursor: pointer;
+        &:hover{
+            color: aqua;
+            transition: .7s;
+        }
     }
 }

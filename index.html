@@ -22,12 +22,21 @@
         <aside class="settings-container">
             <h2>Settings</h2>
             <div class="adjusting">
-                <label for="points">Size (between 8 and 64):</label>
-                <input type="range" id="range" name="points" min="8" max="64" value="16"><br>
-                <button id="btn-change">Change</button>
-                <button id="btn-clear">Clear</button>
-                <button id="btn-black">Black</button>
-                <button id="btn-rgb">RGB</button>
+                <div class="size-wrapper">
+                    <h2>Change a grid: </h2>
+                    <label for="points">Size (between 8 and 64):</label>
+                    <input type="range" id="range" name="points" min="8" max="64" value="16"><br>
+                    <button id="btn-change">Change</button>
+                </div>
+                <div class="color-wrapper">
+                    <h2>Choose a color: </h2>
+                    <button id="btn-black">Black</button>
+                    <button id="btn-rgb">RGB</button>
+                </div>
+                <div class="reset-wrapper">
+                    <h2>Reset all settings: </h2>
+                    <button id="btn-clear">Reset</button>
+                </div>
             </div>
         </aside>
         </div>
